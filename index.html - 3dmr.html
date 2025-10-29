@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="3dMr Multimedia - Transform your business with AI. Custom AI Chatbots, Intelligent Agents & Business Automation Tools.">
+    <title>3dMr Multimedia | AI-Powered Business Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-3d">3d</span><span class="logo-mr">Mr</span>
+                <span class="logo-text">Multimedia</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About Kendra</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-link cta-button">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Kendra Video -->
+    <section class="hero-section" id="home">
+        <div class="video-container">
+            <!-- Kendra Welcome Video -->
+            <video id="kendraVideo" autoplay muted loop playsinline poster="https://cdn1.genspark.ai/user-upload-image/5_generated/1493bce9-e713-49c7-a5dc-ee325558d43b.jpeg">
+                <source src="https://cdn1.genspark.ai/user-upload-image/5/5c282742-1e63-4104-8370-e4128812286c.mp4" type="video/mp4">
+            </video>
+            
+            <!-- Kendra Welcome Audio -->
+            <audio id="kendraAudio" src="https://cdn1.genspark.ai/user-upload-image/elevenlabs/eleven_v3/3d61db33-9368-4574-a235-f423b8f196a9.mp3"></audio>
+            
+            <!-- Sound Toggle Button -->
+            <button id="soundToggle" class="sound-btn" aria-label="Toggle sound">
+                <span class="sound-icon">🔇</span>
+                <span class="sound-text">Click to hear Kendra</span>
+            </button>
+            
+            <!-- Gradient Overlay -->
+            <div class="video-overlay"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-star"></i>
+                <span>Meet Kendra, Your AI Guide</span>
+            </div>
+            <h1 class="hero-title">Transform Your Business with AI</h1>
+            <p class="hero-subtitle">Custom AI Chatbots, Intelligent Agents & Business Automation Tools</p>
+            <p class="hero-description">Powered by cutting-edge artificial intelligence, we help businesses automate operations, enhance customer service, and boost revenue—all while you focus on growth.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">
+                    <span>Schedule Free Consultation</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#services" class="btn-secondary">
+                    <span>See What We Can Do</span>
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll to explore</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Kendra Section -->
+    <section class="about-kendra" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-badge">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Brand Ambassador</span>
+                    </div>
+                    <h2 class="section-title">Meet Kendra</h2>
+                    <p class="section-description">Kendra is more than just a chatbot—she's the future of customer engagement. As 3dMr Multimedia's AI guide, she represents the power and potential of what we can build for YOUR business.</p>
+                    
+                    <div class="kendra-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Intelligent & Adaptive</h4>
+                                <p>Learns from every interaction to serve you better</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Available 24/7</h4>
+                                <p>Never sleeps, never takes a day off</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Personalized Experience</h4>
+                                <p>Tailored to your brand voice and customers</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-box">
+                        <h3>Want a Kendra for Your Business?</h3>
+                        <p>We can build a custom AI assistant just like Kendra, trained specifically for YOUR industry, YOUR brand, and YOUR customers.</p>
+                        <a href="#contact" class="btn-primary">Let's Build Yours</a>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="floating-card">
+                        <img src="https://cdn1.genspark.ai/user-upload-image/5_generated/1493bce9-e713-49c7-a5dc-ee325558d43b.jpeg" alt="Kendra - AI Ambassador" class="kendra-image">
+                        <div class="floating-stats">
+                            <div class="stat">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Availability</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">Accuracy</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">∞</div>
+                                <div class="stat-label">Scalability</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Interactive Cards -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-cogs"></i>
+                    <span>Our Services</span>
+                </div>
+                <h2 class="section-title">What Can Kendra Do For You?</h2>
+                <p class="section-subtitle">Click on any service to hear Kendra explain how we can transform your business</p>
+            </div>
+            
+            <div class="service-cards">
+                <!-- AI Chatbots Card -->
+                <div class="service-card" data-audio="chatbot">
+                    <div class="card-image">
+                        <img src="https://cdn1.genspark.ai/user-upload-image/5_generated/1ce5ceff-0eaa-4f25-8229-b2c28f289f61.jpeg" alt="AI Chatbots with Kendra" loading="lazy">
+                        <div class="card-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3 class="card-title">AI Chatbots</h3>
+                        <p class="card-description">24/7 customer service that handles inquiries, books appointments, answers questions, and closes sales—even while you sleep.</p>
+                        
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Instant customer responses</li>
+                            <li><i class="fas fa-check"></i> Appointment scheduling</li>
+                            <li><i class="fas fa-check"></i> Lead qualification</li>
+                            <li><i class="fas fa-check"></i> Multi-channel support</li>
+                        </ul>
+                        
+                        <button class="play-audio-btn">
+                            <span class="audio-icon">🔊</span>
+                            <span class="btn-text">Hear Kendra Explain</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Business Automation Card -->
+                <div class="service-card" data-audio="automation">
+                    <div class="card-image">
+                        <img src="https://cdn1.genspark.ai/user-upload-image/5_generated/2f3d87ac-17dc-4302-a8fe-ce8a7f424aff.jpeg" alt="Business Automation with Kendra" loading="lazy">
+                        <div class="card-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <h3 class="card-title">Business Automation</h3>
+                        <p class="card-description">Eliminate repetitive tasks, streamline workflows, and free up your time to focus on what really matters—growing your business.</p>
+                        
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Workflow optimization</li>
+                            <li><i class="fas fa-check"></i> Email automation</li>
+                            <li><i class="fas fa-check"></i> Data processing</li>
+                            <li><i class="fas fa-check"></i> Inventory management</li>
+                        </ul>
+                        
+                        <button class="play-audio-btn">
+                            <span class="audio-icon">🔊</span>
+                            <span class="btn-text">Hear Kendra Explain</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- AI Agents Card -->
+                <div class="service-card featured" data-audio="agents">
+                    <div class="featured-badge">
+                        <i class="fas fa-crown"></i> Most Advanced
+                    </div>
+                    <div class="card-image">
+                        <img src="https://cdn1.genspark.ai/user-upload-image/5_generated/702d8be9-410e-4e34-a369-526d258d1a07.jpeg" alt="AI Agents with Kendra" loading="lazy">
+                        <div class="card-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="card-title">AI Agents</h3>
+                        <p class="card-description">Intelligent autonomous assistants that make decisions, analyze data, and optimize your operations—like having a digital team that never stops learning.</p>
+                        
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Autonomous decision-making</li>
+                            <li><i class="fas fa-check"></i> Advanced data analysis</li>
+                            <li><i class="fas fa-check"></i> Predictive insights</li>
+                            <li><i class="fas fa-check"></i> Continuous learning</li>
+                        </ul>
+                        
+                        <button class="play-audio-btn">
+                            <span class="audio-icon">🔊</span>
+                            <span class="btn-text">Hear Kendra Explain</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hidden Audio Elements -->
+            <audio id="audio-chatbot" src="https://cdn1.genspark.ai/user-upload-image/elevenlabs/eleven_v3/9a8c2f06-14f9-41a3-ab81-0699434b6b1e.mp3"></audio>
+            <audio id="audio-automation" src="https://cdn1.genspark.ai/user-upload-image/elevenlabs/eleven_v3/a0247941-aaaf-4b0b-b95b-6d66a15b6391.mp3"></audio>
+            <audio id="audio-agents" src="https://cdn1.genspark.ai/user-upload-image/elevenlabs/eleven_v3/59d9d34a-226f-422c-861a-dce562206ef9.mp3"></audio>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-badge">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>Get In Touch</span>
+                    </div>
+                    <h2 class="section-title">Ready to Transform Your Business?</h2>
+                    <p class="section-description">Schedule your free consultation today and discover how AI can boost your revenue, save time, and scale your operations.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:3dmr@3dmr.org">3dmr@3dmr.org</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:323-301-1253">323-301-1253</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Website</h4>
+                                <a href="https://www.3dmr.org" target="_blank">www.3dmr.org</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="chatbot">AI Chatbots</option>
+                                <option value="automation">Business Automation</option>
+                                <option value="agents">AI Agents</option>
+                                <option value="custom">Custom Solution</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Business *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn-submit">
+                            <span>Schedule Free Consultation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        
+                        <p class="form-note">We'll respond within 24 hours</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-3d">3d</span><span class="logo-mr">Mr</span>
+                        <span class="logo-text">Multimedia</span>
+                    </div>
+                    <p class="footer-description">AI-powered solutions for modern businesses. Transform your operations with custom chatbots, intelligent agents, and automation tools.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI Chatbots</a></li>
+                        <li><a href="#services">Business Automation</a></li>
+                        <li><a href="#services">AI Agents</a></li>
+                        <li><a href="#contact">Custom Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Kendra</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact">Get Started</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:3dmr@3dmr.org">3dmr@3dmr.org</a></li>
+                        <li><a href="tel:323-301-1253">323-301-1253</a></li>
+                        <li><a href="https://www.3dmr.org">www.3dmr.org</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 3dMr Multimedia Co. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
